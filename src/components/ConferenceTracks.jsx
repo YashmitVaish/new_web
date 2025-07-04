@@ -67,7 +67,7 @@ const ConferenceTracks = ({ tracks }) => {
 
       </Box>
 
-      <Typography id="conference-tracks-section" variant="body1" align="left" sx={{ mt: 3, fontSize: '1.2rem' , scrollMarginTop: '300px' ,textAlign: 'justify'}}>
+      <Typography id="conference-tracks-section" variant="body1" align="left" sx={{ mt: 3, fontSize: '1.2rem' , scrollMarginTop: '300px' ,textAlign: 'justify' , fontWeight: 'bold'}}>
         <SpringerInfo data={conferencedata.springerInfo} />
 
       </Typography>

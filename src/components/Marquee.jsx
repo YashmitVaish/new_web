@@ -14,7 +14,7 @@ export default function Marquee({ data }) {
         overflow: "hidden",
         whiteSpace: "nowrap",
         width: "100%",
-        backgroundColor: "#f9f9f9",
+        backgroundColor: "#FFF0EA",
         py: 1,
       }}
     >
@@ -37,6 +37,7 @@ export default function Marquee({ data }) {
                 // Open in new tab only if it's an external link
                 {...(!isInternal ? { target: "_blank", rel: "noopener" } : {})}
                 sx={{ mx: 0.5, color: "#1976d2", textDecoration: "underline", cursor: "pointer" }}
+                component="a"
               >
                 {item.value}
               </Link>
