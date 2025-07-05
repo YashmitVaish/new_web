@@ -14,12 +14,19 @@ function Abstract() {
     <>
       <Navbar data={conferencedata.navLinks} />
 
-      <Box component="section" sx={{ py: { xs: 6, md: 10 }, background: "#f9f9f9" }}>
-        <br />
+      {/* Intro Text */}
+      <Box
+        component="section"
+        sx={{
+          py: { xs: 3, md: 4 },
+          pt: { xs: 8, md: 10 },
+          background: "#f9f9f9"
+        }}
+      >
         <Container>
           <Typography
             variant="body1"
-            sx={{ textAlign: "justify", fontSize: "1.2rem", lineHeight: 1.6, mb: 4 }}
+            sx={{ textAlign: "justify", fontSize: "1.2rem", lineHeight: 1.6, mb: 2 }}
           >
             Welcome to the abstract submission for the International Conference on{" "}
             <b>TRANSFORMING HIGHER EDUCATION FOR FUTURE: EDUCATION 4.0</b>.
@@ -28,14 +35,14 @@ function Abstract() {
       </Box>
 
       {/* Abstract Submission */}
-      <Box component="section" sx={{ py: { xs: 6 } }}>
+      <Box component="section" sx={{ py: { xs: 3, md: 4 } }}>
         <Container>
           <Typography
             variant="h5"
             component="h2"
             fontWeight="bold"
-            gutterBottom
             color="primary.main"
+            sx={{ mb: 1.5 }}
           >
             {abstractSubmission.title}
           </Typography>
@@ -45,7 +52,7 @@ function Abstract() {
                 key={index}
                 component="li"
                 variant="body1"
-                sx={{ fontSize: "1.2rem", lineHeight: 1.8 }}
+                sx={{ fontSize: "1.2rem", lineHeight: 1.7 }}
               >
                 {item}
               </Typography>
@@ -55,14 +62,14 @@ function Abstract() {
       </Box>
 
       {/* Full Paper Submission */}
-      <Box component="section" sx={{ py: { xs: 6 } }}>
+      <Box component="section" sx={{ py: { xs: 3, md: 4 } }}>
         <Container>
           <Typography
             variant="h5"
             component="h2"
             fontWeight="bold"
-            gutterBottom
             color="primary.main"
+            sx={{ mb: 1.5 }}
           >
             {fullPaperSubmission.title}
           </Typography>
@@ -72,7 +79,7 @@ function Abstract() {
                 key={index}
                 component="li"
                 variant="body1"
-                sx={{ fontSize: "1.2rem", lineHeight: 1.8 }}
+                sx={{ fontSize: "1.2rem", lineHeight: 1.7 }}
               >
                 {item}
               </Typography>
@@ -82,18 +89,18 @@ function Abstract() {
       </Box>
 
       {/* Plagiarism Guidelines */}
-      <Box component="section" sx={{ py: { xs: 6 } }}>
+      <Box component="section" sx={{ py: { xs: 3, md: 4 } }}>
         <Container>
           <Typography
             variant="h5"
             component="h2"
             fontWeight="bold"
-            gutterBottom
             color="primary.main"
+            sx={{ mb: 1.5 }}
           >
             {plagiarismPolicy.title}
           </Typography>
-          <Typography sx={{ fontSize: "1.2rem", lineHeight: 1.8, mb: 2 }}>
+          <Typography sx={{ fontSize: "1.2rem", lineHeight: 1.7, mb: 2 }}>
             {plagiarismPolicy.description}
           </Typography>
           <Box component="ul">
@@ -102,7 +109,7 @@ function Abstract() {
                 key={index}
                 component="li"
                 variant="body1"
-                sx={{ fontSize: "1.2rem", lineHeight: 1.8 }}
+                sx={{ fontSize: "1.2rem", lineHeight: 1.7 }}
               >
                 {item}
               </Typography>
@@ -111,32 +118,34 @@ function Abstract() {
         </Container>
       </Box>
 
-      {/* Conference Tracks & Best Paper Award */}
-      <Container>
-                <Typography
-          variant="h5"
-          component="h2"
-          fontWeight="bold"
-          gutterBottom
-          color="primary.main"
-        >
-          BEST PAPER AWARD
-        </Typography>
-        <Box component="ul" sx={{ pl: 3, mb: 4 }}>
-          {abstract.description_bullets.map((item, index) => (
-            <Typography
-              key={index}
-              component="li"
-              variant="body1"
-              sx={{ fontSize: "1.2rem", lineHeight: 1.8 }}
-            >
-              {item}
-            </Typography>
-          ))}
-        </Box>
-        <ConferenceTracks tracks={tracks} />
+      {/* Best Paper Award & Conference Tracks */}
+      <Box component="section" sx={{ py: { xs: 3, md: 4 } }}>
+        <Container>
+          <Typography
+            variant="h5"
+            component="h2"
+            fontWeight="bold"
+            color="primary.main"
+            sx={{ mb: 1.5 }}
+          >
+            BEST PAPER AWARD
+          </Typography>
+          <Box component="ul" sx={{ pl: 3, mb: 3 }}>
+            {abstract.description_bullets.map((item, index) => (
+              <Typography
+                key={index}
+                component="li"
+                variant="body1"
+                sx={{ fontSize: "1.2rem", lineHeight: 1.7 }}
+              >
+                {item}
+              </Typography>
+            ))}
+          </Box>
 
-      </Container>
+          <ConferenceTracks tracks={tracks} />
+        </Container>
+      </Box>
 
       <TextSec1 data={abstract} />
       <ContactUs data={footer} />
