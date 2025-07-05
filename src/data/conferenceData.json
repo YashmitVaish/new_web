@@ -277,24 +277,40 @@
       }
     }
   },
-  "Abst":{
-    "title": "Plagiarism and Publication Ethics Guidelines",
-    "description":"Before submission, the paper must be checked for plagiarism using licensed software such as Turnitin, iThenticate, CrossCheck, or equivalent tools. The overall similarity index must not exceed 15%, including both self-similarity and similarity with other sources. Authors are required to strictly adhere to the following ethical guidelines for publication:",
-    "description_bullets":[
-"Plagiarism of any kind, including self-plagiarism or copying from others' work, is strictly prohibited.",
-"If your article includes any model, concept, figure, table, data, or conclusive remark from previously published work, you must properly cite the original source.",
-"The language used to explain adopted material should be distinctly different from that of the original source.",
-"If any copyrighted material is used, prior permission from the copyright holder must be obtained.",
-"Failure to comply with these ethical standards may result in the rejection of the manuscript."
-    ],
-        "description_bullets2":[
-"Original, unpublished research papers, articles, and working papers (10–12 pages maximum) aligned with the conference theme are invited for presentation and potential publication in the conference proceedings.",
-"All submissions must be made online via the Microsoft CMT submission portal.",
-"Each submission will undergo a rigorous peer-review process, evaluating originality, relevance, technical quality, and clarity.",
-"If any copyrighted material is used, prior permission from the copyright holder must be obtained.",
-"Only papers presenting original content, including novel research findings or innovative, practical applications, will be selected for publication in indexed journals ."
-    ]
-  },
+"Abst":
+ {
+  "submissionGuidelines": {
+    "abstractSubmission": {
+      "title": "Abstract Submission",
+      "description_bullets": [
+        "Submit your abstract (maximum 300 words).",
+        "Your abstract must align with the conference's theme.",
+        "Your abstract can be based on broad research topics such as Curriculum Innovation and Pedagogical Strategies, Experiential Learning, Faculty Development and Support, Digital Transformation and Educational Technologies, Equity, Diversity, and Inclusion in Higher Education, Global Partnerships and Internationalization, Policy Development and Institutional Governance, Student Engagement and Career Readiness, Assessment and Quality Assurance, and Academia-Industry Connect, etc."
+      ]
+    },
+    "fullPaperSubmission": {
+      "title": "Full Paper Submission",
+      "description_bullets": [
+        "Original, unpublished research papers, articles, and working papers (10–12 pages maximum) aligned with the conference theme are invited for presentation and potential publication in the conference proceedings.",
+        "All submissions must be made online via the Microsoft CMT submission portal.",
+        "Each submission will undergo a rigorous peer-review process, evaluating originality, relevance, technical quality, and clarity.",
+        "If any copyrighted material is used, prior permission from the copyright holder must be obtained.",
+        "Only papers presenting original content, including novel research findings or innovative, practical applications, will be selected for publication in indexed journals."
+      ]
+    },
+    "plagiarismPolicy": {
+      "title": "Plagiarism and Publication Ethics Guidelines",
+      "description": "Before submission, the paper must be checked for plagiarism using licensed software such as Turnitin, iThenticate, CrossCheck, or equivalent tools. The overall similarity index must not exceed 15%, including both self-similarity and similarity with other sources. Authors are required to strictly adhere to the following ethical guidelines for publication:",
+      "description_bullets": [
+        "Plagiarism of any kind, including self-plagiarism or copying from others' work, is strictly prohibited.",
+        "If your article includes any model, concept, figure, table, data, or conclusive remark from previously published work, you must properly cite the original source.",
+        "The language used to explain adopted material should be distinctly different from that of the original source.",
+        "If any copyrighted material is used, prior permission from the copyright holder must be obtained.",
+        "Failure to comply with these ethical standards may result in the rejection of the manuscript."
+      ]
+    }
+  }
+},
 
 
   "Register":{
