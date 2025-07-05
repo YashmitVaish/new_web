@@ -113,8 +113,7 @@ function Abstract() {
 
       {/* Conference Tracks & Best Paper Award */}
       <Container>
-        <ConferenceTracks tracks={tracks} />
-        <Typography
+                <Typography
           variant="h5"
           component="h2"
           fontWeight="bold"
@@ -135,6 +134,8 @@ function Abstract() {
             </Typography>
           ))}
         </Box>
+        <ConferenceTracks tracks={tracks} />
+
       </Container>
 
       <TextSec1 data={abstract} />
