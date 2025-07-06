@@ -16,7 +16,7 @@ import Slideshow from '../components/glimpses';
 import ContactUs from '../components/contactUs';
 import Chief from '../components/pcp';
 import Marquee from '../components/Marquee';
-
+import SpringerInfo from '../components/springer';
 
 
 
@@ -71,6 +71,10 @@ function Home() {
       <TextSec2 data={conferencedata.tiet} />
       <TextSec3 data={conferencedata.nitttr} />
       <DatesTable data={conferencedata.importantDates} />
+      <Typography id="conference-tracks-section" variant="body1" align="left" sx={{ mt: 3, fontSize: '1.2rem' , scrollMarginTop: '300px' ,textAlign: 'justify' , fontWeight: 'bold'}}>
+      <SpringerInfo data={conferencedata.springerInfo} />
+
+      </Typography>
       <ConferenceTracks tracks={conferencedata.tracks} />
 
     <Box sx={{ background: '#ffffff' }}>

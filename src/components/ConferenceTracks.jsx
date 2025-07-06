@@ -4,7 +4,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { styled } from '@mui/material/styles';
 import BulletSection from './bullet_text'
 import conferencedata from '../data/conferenceData.json'
-import SpringerInfo from './springer';
+
 
 
 
@@ -54,24 +54,9 @@ const ConferenceTracks = ({ tracks }) => {
   return (
   <Container component="section">
     <Box id="Conference_Tracks">
-      <Box
-      component="img"
-            sx={{
-            width: '100%',
-            height: 'auto',
-            mt: 1,
-          }}
-           src="/springer_head.png"
 
-      >
 
-      </Box>
-
-      <Typography id="conference-tracks-section" variant="body1" align="left" sx={{ mt: 3, fontSize: '1.2rem' , scrollMarginTop: '300px' ,textAlign: 'justify' , fontWeight: 'bold'}}>
-        <SpringerInfo data={conferencedata.springerInfo} />
-
-      </Typography>
-      <BulletSection data={conferencedata.journals} />
+      
       <Typography variant="h4" component="h2" align="left" gutterBottom>
         CONFERENCE TRACKS
       </Typography>      
