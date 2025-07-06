@@ -27,7 +27,19 @@ function Home() {
       <Navbar data={conferencedata.navLinks} />
       <HeroSection />
       <Bottombar/>
-<Box sx={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', px: 4, my: 4 }}>
+<Box
+  sx={{
+    width: '100%',
+    display: 'flex',
+    flexDirection: { xs: 'column', sm: 'row' },
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    px: 2,
+    my: 4,
+    gap: { xs: 2, sm: 0 },
+  }}
+>
+
   {/* Left-aligned logos */}
   <Box sx={{ display: 'flex', gap: 2 }}>
     <Box
