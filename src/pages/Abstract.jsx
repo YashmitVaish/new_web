@@ -5,10 +5,17 @@ import ContactUs from "../components/contactUs";
 import { Box, Container, Typography } from "@mui/material";
 import ConferenceTracks from "../components/ConferenceTracks";
 import TextSec1 from "../components/textsec1";
+import SpringerInfo from "../components/springer";
 
 function Abstract() {
   const { Abst, tracks, footer, abstract } = conferencedata;
-  const { abstractSubmission, fullPaperSubmission, plagiarismPolicy } = Abst.submissionGuidelines;
+  const { abstractSubmission, fullPaperSubmission, plagiarismPolicy } =
+    Abst.submissionGuidelines;
+
+  const sectionStyle = {
+    pt: { xs: 2, md: 3 },
+    pb: { xs: 2, md: 3 },
+  };
 
   return (
     <>
@@ -18,24 +25,28 @@ function Abstract() {
       <Box
         component="section"
         sx={{
-          py: { xs: 3, md: 4 },
-          pt: { xs: 8, md: 10 },
-          background: "#f9f9f9"
+          pt: { xs: 4, md: 6 },
+          pb: { xs: 2, md: 3 },
+          background: "#f9f9f9",
         }}
       >
         <Container>
           <Typography
             variant="body1"
-            sx={{ textAlign: "justify", fontSize: "1.2rem", lineHeight: 1.6, mb: 2 }}
+            sx={{
+              textAlign: "justify",
+              fontSize: "1.2rem",
+              lineHeight: 1.6,
+            }}
           >
-            Welcome to the abstract submission for the International Conference on{" "}
-            <b>TRANSFORMING HIGHER EDUCATION FOR FUTURE: EDUCATION 4.0</b>.
+            Welcome to the abstract submission for the International Conference
+            on <b>TRANSFORMING HIGHER EDUCATION FOR FUTURE: EDUCATION 4.0</b>.
           </Typography>
         </Container>
       </Box>
 
       {/* Abstract Submission */}
-      <Box component="section" sx={{ py: { xs: 3, md: 4 } }}>
+      <Box component="section" sx={sectionStyle}>
         <Container>
           <Typography
             variant="h5"
@@ -46,13 +57,13 @@ function Abstract() {
           >
             {abstractSubmission.title}
           </Typography>
-          <Box component="ul">
+          <Box component="ul" sx={{ pl: 0, ml: 2 }}>
             {abstractSubmission.description_bullets.map((item, index) => (
               <Typography
                 key={index}
                 component="li"
                 variant="body1"
-                sx={{ fontSize: "1.2rem", lineHeight: 1.7 }}
+                sx={{ fontSize: "1.2rem", lineHeight: 1.7, mb: 0.5 }}
               >
                 {item}
               </Typography>
@@ -62,7 +73,7 @@ function Abstract() {
       </Box>
 
       {/* Full Paper Submission */}
-      <Box component="section" sx={{ py: { xs: 3, md: 4 } }}>
+      <Box component="section" sx={sectionStyle}>
         <Container>
           <Typography
             variant="h5"
@@ -73,13 +84,13 @@ function Abstract() {
           >
             {fullPaperSubmission.title}
           </Typography>
-          <Box component="ul">
+          <Box component="ul" sx={{ pl: 0, ml: 2 }}>
             {fullPaperSubmission.description_bullets.map((item, index) => (
               <Typography
                 key={index}
                 component="li"
                 variant="body1"
-                sx={{ fontSize: "1.2rem", lineHeight: 1.7 }}
+                sx={{ fontSize: "1.2rem", lineHeight: 1.7, mb: 0.5 }}
               >
                 {item}
               </Typography>
@@ -89,7 +100,7 @@ function Abstract() {
       </Box>
 
       {/* Plagiarism Guidelines */}
-      <Box component="section" sx={{ py: { xs: 3, md: 4 } }}>
+      <Box component="section" sx={sectionStyle}>
         <Container>
           <Typography
             variant="h5"
@@ -103,13 +114,13 @@ function Abstract() {
           <Typography sx={{ fontSize: "1.2rem", lineHeight: 1.7, mb: 2 }}>
             {plagiarismPolicy.description}
           </Typography>
-          <Box component="ul">
+          <Box component="ul" sx={{ pl: 0, ml: 2 }}>
             {plagiarismPolicy.description_bullets.map((item, index) => (
               <Typography
                 key={index}
                 component="li"
                 variant="body1"
-                sx={{ fontSize: "1.2rem", lineHeight: 1.7 }}
+                sx={{ fontSize: "1.2rem", lineHeight: 1.7, mb: 0.5 }}
               >
                 {item}
               </Typography>
@@ -118,8 +129,18 @@ function Abstract() {
         </Container>
       </Box>
 
-      {/* Best Paper Award & Conference Tracks */}
-      <Box component="section" sx={{ py: { xs: 3, md: 4 } }}>
+      {/* Springer Info */}
+      <Box component="section" sx={sectionStyle}>
+        <Container>
+      <Typography id="conference-tracks-section" variant="body1" align="left" sx={{ mt: 3, fontSize: '1.2rem' , scrollMarginTop: '300px' ,textAlign: 'justify' , fontWeight: 'bold'}}>
+      <SpringerInfo data={conferencedata.springerInfo} />
+
+      </Typography>
+        </Container>
+      </Box>
+
+      {/* Best Paper Award */}
+      <Box component="section" sx={sectionStyle}>
         <Container>
           <Typography
             variant="h5"
@@ -130,25 +151,41 @@ function Abstract() {
           >
             BEST PAPER AWARD
           </Typography>
-          <Box component="ul" sx={{ pl: 3, mb: 3 }}>
+          <Box component="ul" sx={{ pl: 0, ml: 2 }}>
             {abstract.description_bullets.map((item, index) => (
               <Typography
                 key={index}
                 component="li"
                 variant="body1"
-                sx={{ fontSize: "1.2rem", lineHeight: 1.7 }}
+                sx={{ fontSize: "1.2rem", lineHeight: 1.7, mb: 0.5 }}
               >
                 {item}
               </Typography>
             ))}
           </Box>
+        </Container>
+      </Box>
 
+      {/* Conference Tracks */}
+      <Box component="section" sx={sectionStyle}>
+        <Container>
           <ConferenceTracks tracks={tracks} />
         </Container>
       </Box>
 
-      <TextSec1 data={abstract} />
-      <ContactUs data={footer} />
+      {/* Submission Section (TextSec1) */}
+      <Box component="section" sx={{ pt: 1, pb: { xs: 2, md: 3 } }}>
+        <Container>
+          <TextSec1 data={abstract} />
+        </Container>
+      </Box>
+
+      {/* Contact Us */}
+      <Box component="section" sx={{ background: "#ff9966", py: { xs: 3, md: 5 } }}>
+        <Container>
+          <ContactUs data={footer} />
+        </Container>
+      </Box>
     </>
   );
 }

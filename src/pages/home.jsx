@@ -16,7 +16,7 @@ import Slideshow from '../components/glimpses';
 import ContactUs from '../components/contactUs';
 import Chief from '../components/pcp';
 import Marquee from '../components/Marquee';
-
+import SpringerInfo from '../components/springer';
 
 
 
@@ -27,7 +27,19 @@ function Home() {
       <Navbar data={conferencedata.navLinks} />
       <HeroSection />
       <Bottombar/>
-<Box sx={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', px: 4, my: 4 }}>
+<Box
+  sx={{
+    width: '100%',
+    display: 'flex',
+    flexDirection: { xs: 'column', sm: 'row' },
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    px: 2,
+    my: 4,
+    gap: { xs: 2, sm: 0 },
+  }}
+>
+
   {/* Left-aligned logos */}
   <Box sx={{ display: 'flex', gap: 2 }}>
     <Box
@@ -71,6 +83,10 @@ function Home() {
       <TextSec2 data={conferencedata.tiet} />
       <TextSec3 data={conferencedata.nitttr} />
       <DatesTable data={conferencedata.importantDates} />
+      <Typography id="conference-tracks-section" variant="body1" align="left" sx={{ mt: 3, fontSize: '1.2rem' , scrollMarginTop: '300px' ,textAlign: 'justify' , fontWeight: 'bold'}}>
+      <SpringerInfo data={conferencedata.springerInfo} />
+
+      </Typography>
       <ConferenceTracks tracks={conferencedata.tracks} />
 
     <Box sx={{ background: '#ffffff' }}>
