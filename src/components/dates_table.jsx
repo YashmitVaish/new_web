@@ -48,7 +48,7 @@ function DatesTable({ data }) {
               {row.date}
             </Typography>
             <Typography variant="body2" color="text.primary">
-              {row.event === "Abstract Submission" ? "25 July 2025" : "15 July 2025"}
+              {row.event === "Abstract Submission" ? "25 July 2025" : "25 July 2025"}
             </Typography>
           </Box>
         ) : (
