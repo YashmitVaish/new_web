@@ -15,7 +15,9 @@ import Bottombar from '../components/bottomblack';
 import Slideshow from '../components/glimpses'; 
 import ContactUs from '../components/contactUs';
 import Chief from '../components/pcp';
+import Chief2 from '../components/chief_guest';   
 import Marquee from '../components/Marquee';
+import Marquee2 from '../components/Marquee2';
 import SpringerInfo from '../components/springer';
 
 
@@ -73,6 +75,8 @@ function Home() {
   </Box>
 </Box>
 <Marquee data={conferencedata.marqueeText}/>
+<Marquee2 data={conferencedata.marqueeText2}/>
+
 
 
 
@@ -92,12 +96,32 @@ function Home() {
     <Box sx={{ background: '#ffffff' }}>
             <br/>
             <Container>
-      <Typography> Abstract/Paper Submission link <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FTHEC2025">Click Here</a> </Typography>
-
+<Box sx={{ mb: 6 }}>
+  <Typography>
+    Abstract/Paper Submission link <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FTHEC2025">Click Here</a>
+  </Typography>
+</Box>
             </Container>
             </Box>
+<Box id="Organizers" sx={{ py: 4 }}>
+  <Container maxWidth="md">
+    <Typography
+      variant="h4"
+      component="h2"
+      align="center"
+      gutterBottom
+      sx={{ mb:2 }}
+    >
+      Chief Guest
+    </Typography>
+
+  </Container>
+</Box>
+
+      <Chief2/>
       
-      <Box sx={{py:4}}>
+     <Box id="Organizers" sx={{ mt: 10, py: 10}}>
+
         <Container maxWidth = "lg">
         <Typography variant="h4" component="h2" align="center" gutterBottom sx={{ mb: 4 }}>
             Guest Speakers
