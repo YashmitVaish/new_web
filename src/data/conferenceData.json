@@ -384,6 +384,21 @@
     "value": "Details Click Here",
     "href": "#conference-tracks-section"
   }
+],
+"marqueeText2": [
+
+
+  {
+    "type": "link",
+    "value": "Link to Latex template",
+    "href": "images/THEC 2025LaTeX.tex"
+  },
+
+  {
+    "type": "link",
+    "value": "Link to Full Paper format",
+    "href": "images/Format_Full Paper_THEC2025.pdf"
+  }
 ]
 
     ,
