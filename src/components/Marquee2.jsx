@@ -51,7 +51,7 @@ export default function Marquee2({ data }) {
         sx={{
           display: "inline-block",
           whiteSpace: "nowrap",
-          animation: `${scrollWithPause} ${isMobile ? "8s" : "25s"} linear infinite`,
+          animation: `${scrollWithPause} ${isMobile ? "15s" : "30s"} linear infinite`,
           minWidth: "100vw",
         }}
       >

@@ -341,7 +341,7 @@
         "path": "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FTHEC2025"
       },
       "template":{
-        "title":"Paper Format",
+        "title":"MS Word Template",
         "path":"images/Format_Full Paper_THEC2025.pdf"
       },
             "template_latex":{
@@ -386,17 +386,25 @@
   }
 ],
 "marqueeText2": [
+    {
+    "type": "text",
+    "value": "Full paper submission template download "
+  },  
 
 
   {
     "type": "link",
-    "value": "Link to Latex template",
+    "value": "<<Latex Template>>",
     "href": "images/THEC 2025LaTeX.tex"
   },
+      {
+    "type": "text",
+    "value": ", "
+  }, 
 
   {
     "type": "link",
-    "value": "Link to Full Paper format",
+    "value": "<<MS Word Template>>",
     "href": "images/Format_Full Paper_THEC2025.pdf"
   }
 ]
