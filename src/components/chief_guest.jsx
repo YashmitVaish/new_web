@@ -1,7 +1,7 @@
 
- import React from 'react';
+import React from 'react';
 import { Box } from '@mui/material';
-
+import Cg from "../data/Desktop-2.svg"
 export default function Chief2() {
   return (
     <Box
@@ -12,7 +12,7 @@ export default function Chief2() {
     >
       <Box
         component="img"
-        src="/images/Desktop - 1.svg"  // Use public path here
+        src={Cg}
         alt="Chief Guest"
         sx={{
           width: '100%',
