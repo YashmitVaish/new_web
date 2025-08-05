@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box } from '@mui/material';
-import Cp from "../data/Desktop - 2.png";
+import Cp from "../data/Desktop - 3.svg";
 import Pt from "../data/Desktop - 1.png";
 
 export default function Chief() {
