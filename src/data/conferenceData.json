@@ -27,19 +27,18 @@
   "image":"/nittr_campus.jpg",
     "description": "NITTTR Chandigarh, was established in 1967 by the Ministry of Human Resource Development, Government of India, with support from the Royal Netherlands Government. The institute has been granted Deemed to be University status (Under Distinct category) by UGC in 2024. NITTTR Chandigarh has played a key role in advancing technical education in India. It offers specialized training programs for faculty in engineering and technical institutions, and is known for its leadership in curriculum development, instructional material design, educational research, extension services, and consultancy in educational technology. It continuously promotes various schemes launched by the Government of India such as National Education Policy-2020 i.e. NEP¬2020, Atmanirbhar Bharat, Digital India, Make in India, Skill India, Indian Knowledge Tradition etc. The glorious traditions of this institute, developed and enhanced during its long journey of more than 57 years dedicated to technical education, training and research, are a source of inspiration for the current generation of teachers and technical institutes."
    },
-    "importantDates": {
-    "title": "IMPORTANT DATES",
-    "headers": ["EVENT", "DATE"],
-    "events": [
-      {"event": "Early Bird Registration", "date": "15 July 2025" },
-      {"event": "Abstract Submission", "date": "15 July 2025" },
-      {"event": "Acceptance of Abstract", "date": "15 July 2025" },
-      {"event": "Fee Submission", "date": "30 July 2025" },
-      {"event": "Full Paper Submission", "date": "15 August 2025" },
-      {"event": "Full Paper Acceptance", "date": "30 August 2025" }
-    
-    ]
-  },
+"importantDates": {
+  "title": "IMPORTANT DATES",
+  "headers": ["EVENT", "DATE"],
+  "events": [
+    { "event": "Early Bird Registration", "date": "15 July 2025" },
+    { "event": "Abstract Submission", "date": "15 July 2025", "newDate": "25 July 2025" },
+    { "event": "Acceptance of Abstract", "date": "15 July 2025", "newDate": "25 July 2025" },
+    { "event": "Fee Submission", "date": "15 July 2025", "newDate": "30 August 2025" },
+    { "event": "Full Paper Submission", "date": "15 August 2025", "newDate": "20 August 2025" },
+    { "event": "Full Paper Acceptance", "date": "30 August 2025" }
+  ]
+},
   "tracks": [
     
     [
