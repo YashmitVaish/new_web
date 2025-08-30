@@ -34,9 +34,9 @@
     { "event": "Early Bird Registration", "date": "15 July 2025" },
     { "event": "Abstract Submission", "date": "15 July 2025", "newDate": "25 July 2025" },
     { "event": "Acceptance of Abstract", "date": "15 July 2025", "newDate": "25 July 2025" },
-    { "event": "Fee Submission", "date": "15 July 2025", "newDate": "30 August 2025" },
-    { "event": "Full Paper Submission", "date": "20 August 2025", "newDate": "25 August 2025" },
-    { "event": "Full Paper Acceptance", "date": "30 August 2025" }
+    { "event": "Fee Submission", "date": "30 August 2025", "newDate": "10 Sept 2025" },
+    { "event": "Full Paper Submission", "date": "25 August 2025", "newDate": "5 September 2025" },
+    { "event": "Full Paper Acceptance", "date": "30 August 2025","newDate": "10 September 2025" }
   ]
 },
   "tracks": [
