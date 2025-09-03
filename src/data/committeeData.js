@@ -127,13 +127,13 @@ export const uqFellows = [
       image: "/images/gurjar1.jpg"
     },
     {
-      name : "Prof. Hadas Mamane",
+      name : "Prof. Nir Ohad",
       title : "Tel Aviv University",
       department : "Israel",
       image: "/images/phm.jpg"
     },
     {
-      name : "Prof. Aard Groen",
+      name : "Prof. Hans van Ees",
       title : "University of Groningen",
       department : "Netherlands",
       image: "/images/pag.jpg"
