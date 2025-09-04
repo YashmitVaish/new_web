@@ -215,7 +215,17 @@
         "Dr. Neelam Chadda, NTPC, Nagpur, India",
         "Dr. Paramjit Singh, Maharaja Ranjit Singh, PTU, India"
       ]
-    }
+    },
+    {
+      "title": "Student Committee",
+      "members": [
+      "Yashmit Vaish, Department of Computer Science and Engineering",
+      "Abhinav Saini, Electronics and Communication Engineering Department",
+      "Aanya Agarwal, Department of Computer Science and Engineering",
+      "Vignesh Jain, Department of Computer Science and Engineering",
+      "Aman Aasees Kaur, Department of Computer Science and Engineering"
+          ]
+        }
       ],
     "navLinks": 
 
