@@ -9,7 +9,7 @@ const Bottombar = () => {
         backgroundColor: '#000',
         color: '#fff',
         fontFamily: 'Barlow',
-        py: { xs: 2, md: 3 }, // thinner black bar
+        py: { xs: 2, md: 3 }, 
         px: { xs: 2, md: 6 },
         display: 'flex',
         flexDirection: { xs: 'column', md: 'row' },
