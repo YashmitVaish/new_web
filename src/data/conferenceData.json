@@ -363,46 +363,23 @@
 
 
   },
-"marqueeText": [
+"announcements": [
   {
-    "type": "text",
-    "value": "Selected papers of the conference will be published as proceedings with Springer in their prestigious “Springer Transactions on Digital Learning” series "
+    "content": [
+      { "type": "text", "value": "Selected papers of the conference will be published as proceedings with Springer in their prestigious 'Springer Transactions on Digital Learning' series " },
+      { "type": "link", "value": "(https://link.springer.com/series/60243)", "href": "https://link.springer.com/series/60243" },
+      { "type": "link", "value": "Details Click Here", "href": "#conference-tracks-section" }
+    ]
   },
   {
-    "type": "link",
-    "value": "(https://link.springer.com/series/60243)",
-    "href": "https://link.springer.com/series/60243"
-  },
-
-  {
-    "type": "link",
-    "value": "Details Click Here",
-    "href": "#conference-tracks-section"
-  }
-],
-"marqueeText2": [
-    {
-    "type": "text",
-    "value": "Full paper submission template download "
-  },  
-
-
-  {
-    "type": "link",
-    "value": "<<Latex Template>>",
-    "href": "images/THEC 2025LaTeX.tex"
-  },
-      {
-    "type": "text",
-    "value": ", "
-  }, 
-
-  {
-    "type": "link",
-    "value": "<<MS Word Template>>",
-    "href": "images/Format_Full Paper_THEC2025.pdf"
+    "content": [
+      { "type": "text", "value": "Full paper submission template download " },
+      { "type": "link", "value": "<<Latex Template>>", "href": "images/THEC2025LaTeX.tex" },
+      { "type": "link", "value": "<<MS Word Template>>", "href": "images/Format_Full Paper_THEC2025.pdf" }
+    ]
   }
 ]
+
 
     ,
   "glimpse":{
@@ -425,6 +402,8 @@
     "type": "text",
     "value": "It is planned to publish the peer reviewed and selected papers of conference as proceedings with Springer in their prestigious “Springer Transactions on Digital Learning” series "
   },
+   
+
   {
     "type": "link",
     "value": "(https://link.springer.com/series/60243)",

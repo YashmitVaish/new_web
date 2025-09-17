@@ -4,7 +4,7 @@ import Cp from "../data/Desktop - 3.svg";
 import Pt from "../data/Desktop - 1.png";
 
 export default function Chief() {
-  return (
+  return (  
     <Box
       sx={{
         width: "100%",
