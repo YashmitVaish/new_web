@@ -373,9 +373,15 @@
   },
   {
     "content": [
-      { "type": "text", "value": "Full paper submission template download " },
+      { "type": "text", "value": "Full paper submission template download ;" },
       { "type": "link", "value": "<<Latex Template>>", "href": "images/THEC2025LaTeX.tex" },
       { "type": "link", "value": "<<MS Word Template>>", "href": "images/Format_Full Paper_THEC2025.pdf" }
+    ]
+  },
+  {
+    "content": [
+      { "type": "text", "value": "Poster presentation template (Size Length/Height 3 feet, width 2.5 feet)" },
+      { "type": "link", "value": "<<Click Here>>", "href": "images/Poster Presentation Template.pptx" }
     ]
   }
 ]
