@@ -51,7 +51,7 @@ export default function AnnouncementsCard({ data }) {
               "100%": { transform: "translateY(-50%)" },
             },
             "&:hover": {
-              animationPlayState: "paused", // pause scrolling on hover
+              animationPlayState: "paused",
             },
           }}
         >
@@ -62,7 +62,7 @@ export default function AnnouncementsCard({ data }) {
                 display: "flex",
                 alignItems: "flex-start",
                 p: 1,
-                mb: "5em", // ensures 5 lines of spacing after each item
+                mb: "3em", // ensures 5 lines of spacing after each item
               }}
             >
               {/* Bullet */}
