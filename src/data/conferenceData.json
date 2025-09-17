@@ -27,18 +27,18 @@
       "image":"/nittr_campus.jpg",
       "description": "NITTTR Chandigarh, was established in 1967 by the Ministry of Human Resource Development, Government of India, with support from the Royal Netherlands Government. The institute has been granted Deemed to be University status (Under Distinct category) by UGC in 2024. NITTTR Chandigarh has played a key role in advancing technical education in India. It offers specialized training programs for faculty in engineering and technical institutions, and is known for its leadership in curriculum development, instructional material design, educational research, extension services, and consultancy in educational technology. It continuously promotes various schemes launched by the Government of India such as National Education Policy-2020 i.e. NEP¬2020, Atmanirbhar Bharat, Digital India, Make in India, Skill India, Indian Knowledge Tradition etc. The glorious traditions of this institute, developed and enhanced during its long journey of more than 57 years dedicated to technical education, training and research, are a source of inspiration for the current generation of teachers and technical institutes."
     },
-"importantDates": {
-  "title": "IMPORTANT DATES",
-  "headers": ["EVENT", "DATE"],
-  "events": [
-    { "event": "Early Bird Registration", "date": "15 July 2025", "newDate":"Closed" },
-    { "event": "Abstract Submission", "date": "25 July 2025", "newDate": "Closed" },
-    { "event": "Acceptance of Abstract", "date": "25 July 2025", "newDate": "Closed" },
-    { "event": "Fee Submission", "date": "10 Sept 2025", "newDate": "Closed" },
-    { "event": "Full Paper Submission", "date": "5 September 2025", "newDate": "Closed" },
-    { "event": "Full Paper Acceptance", "date": "10 September 2025","newDate": "Closed" }
-  ]
-},
+  "importantDates": {
+    "title": "IMPORTANT DATES",
+    "headers": ["EVENT", "DATE"],
+    "events": [
+      { "event": "Early Bird Registration", "date": "15 July 2025", "newDate":"Closed" },
+      { "event": "Abstract Submission", "date": "25 July 2025", "newDate": "Closed" },
+      { "event": "Acceptance of Abstract", "date": "25 July 2025", "newDate": "Closed" },
+      { "event": "Fee Submission", "date": "10 Sept 2025", "newDate": "Closed" },
+      { "event": "Full Paper Submission", "date": "5 September 2025", "newDate": "Closed" },
+      { "event": "Full Paper Acceptance", "date": "10 September 2025","newDate": "Closed" }
+    ]
+  },
   "tracks": [
     
     [
@@ -226,11 +226,8 @@
       "Aman Aasees Kaur, Department of Computer Science and Engineering"
           ]
         }
-      ],
-    "navLinks": 
-
-
-    [
+  ],
+  "navLinks": [
   { "label": "Home", "path": "/#home" },
   { "label": "About Conference", "path": "/#about" },
   { "label": "Conference Tracks", "path": "/#Conference_Tracks" },
@@ -238,8 +235,7 @@
   { "label": "Abstract/Submissions", "path": "/abstract" },
   { "label": "Schedule", "path": "/schedule" },
   { "label": "Contact Us", "path": "/#contact" }
-
-],
+  ],
   "footer": {
     "title": "Contact Us",
     "address": "Thapar Institute of Engineering and Technology, Bhadson Rd, Adarsh Nagar, Prem Nagar, Patiala, Punjab 147004",
@@ -251,12 +247,12 @@
   "abstract":{
     "title": "Submission",
     "description": "We invite authors to submit abstracts (300 words) in PDF, DOC, or DOCX format.",
-          "description_bullets": [
-    "Best paper awards will be given in each track.",
-   "Selected papers will be submitted for inclusion in Scopus-indexed journals, subject to scope and quality review.",
-"Other accepted papers will be published in the conference proceedings.",
-"All submissions must have a plagiarism similarity index below 15%."
-  ],
+    "description_bullets": [
+      "Best paper awards will be given in each track.",
+      "Selected papers will be submitted for inclusion in Scopus-indexed journals, subject to scope and quality review.",
+      "Other accepted papers will be published in the conference proceedings.",
+      "All submissions must have a plagiarism similarity index below 15%."
+    ],
     "buttons": {
       "Guidlines": {
         "title": "Submission Guidlines (CMT)",
@@ -272,57 +268,53 @@
       }
     }
   },
-"Abst":
- {
-  "submissionGuidelines": {
-    "abstractSubmission": {
-      "title": "Abstract Submission",
-      "description_bullets": [
-        "Submit your abstract (maximum 300 words).",
-        "Your abstract must align with the conference's theme.",
-        "Your abstract can be based on broad research topics such as Curriculum Innovation and Pedagogical Strategies, Experiential Learning, Faculty Development and Support, Digital Transformation and Educational Technologies, Equity, Diversity, and Inclusion in Higher Education, Global Partnerships and Internationalization, Policy Development and Institutional Governance, Student Engagement and Career Readiness, Assessment and Quality Assurance, and Academia-Industry Connect, etc."
-      ]
-    },
-    "fullPaperSubmission": {
-      "title": "Full Paper Submission",
-      "description_bullets": [
-        "Original, unpublished research papers, articles, and working papers (10–12 pages maximum) aligned with the conference theme are invited for presentation and potential publication in the conference proceedings.",
-        "All submissions must be made online via the Microsoft CMT submission portal.",
-        "Each submission will undergo a rigorous peer-review process, evaluating originality, relevance, technical quality, and clarity.",
-        "If any copyrighted material is used, prior permission from the copyright holder must be obtained.",
-        "Only papers presenting original content, including novel research findings or innovative, practical applications, will be selected for publication in indexed journals."
-      ]
-    },
-    "plagiarismPolicy": {
-      "title": "Plagiarism and Publication Ethics Guidelines",
-      "description": "Before submission, the paper must be checked for plagiarism using licensed software such as Turnitin, iThenticate, CrossCheck, or equivalent tools. The overall similarity index must not exceed 15%, including both self-similarity and similarity with other sources. Authors are required to strictly adhere to the following ethical guidelines for publication:",
-      "description_bullets": [
-        "Plagiarism of any kind, including self-plagiarism or copying from others' work, is strictly prohibited.",
-        "If your article includes any model, concept, figure, table, data, or conclusive remark from previously published work, you must properly cite the original source.",
-        "The language used to explain adopted material should be distinctly different from that of the original source.",
-        "If any copyrighted material is used, prior permission from the copyright holder must be obtained.",
-        "Failure to comply with these ethical standards may result in the rejection of the manuscript."
-      ]
+  "Abst":{
+    "submissionGuidelines": {
+      "abstractSubmission": {
+        "title": "Abstract Submission",
+        "description_bullets": [
+          "Submit your abstract (maximum 300 words).",
+          "Your abstract must align with the conference's theme.",
+          "Your abstract can be based on broad research topics such as Curriculum Innovation and Pedagogical Strategies, Experiential Learning, Faculty Development and Support, Digital Transformation and Educational Technologies, Equity, Diversity, and Inclusion in Higher Education, Global Partnerships and Internationalization, Policy Development and Institutional Governance, Student Engagement and Career Readiness, Assessment and Quality Assurance, and Academia-Industry Connect, etc."
+        ]
+      },
+      "fullPaperSubmission": {
+        "title": "Full Paper Submission",
+        "description_bullets": [
+          "Original, unpublished research papers, articles, and working papers (10–12 pages maximum) aligned with the conference theme are invited for presentation and potential publication in the conference proceedings.",
+          "All submissions must be made online via the Microsoft CMT submission portal.",
+          "Each submission will undergo a rigorous peer-review process, evaluating originality, relevance, technical quality, and clarity.",
+          "If any copyrighted material is used, prior permission from the copyright holder must be obtained.",
+          "Only papers presenting original content, including novel research findings or innovative, practical applications, will be selected for publication in indexed journals."
+        ]
+      },
+      "plagiarismPolicy": {
+        "title": "Plagiarism and Publication Ethics Guidelines",
+        "description": "Before submission, the paper must be checked for plagiarism using licensed software such as Turnitin, iThenticate, CrossCheck, or equivalent tools. The overall similarity index must not exceed 15%, including both self-similarity and similarity with other sources. Authors are required to strictly adhere to the following ethical guidelines for publication:",
+        "description_bullets": [
+          "Plagiarism of any kind, including self-plagiarism or copying from others' work, is strictly prohibited.",
+          "If your article includes any model, concept, figure, table, data, or conclusive remark from previously published work, you must properly cite the original source.",
+          "The language used to explain adopted material should be distinctly different from that of the original source.",
+          "If any copyrighted material is used, prior permission from the copyright holder must be obtained.",
+          "Failure to comply with these ethical standards may result in the rejection of the manuscript."
+        ]
+      }
     }
-  }
-},
-
-
+  },
   "Register":{
     "title":"REGISTRATION GUIDELINES",
     "description":"Delegates should register as per details given below.",
-      "description_bullets": [
-    "All the participants have to submit the registration fee through UPI or Netbanking, in order to attend/present paper in the conference. E-receipt can be downloaded from payment portal after successful payment process.",
-   "Once the payment has been done, the authors need to fill the registration form for their confirmation.",
-"Registration fee includes registration kit, and high tea during the conference sessions."
-  ],
-
+    "description_bullets": [
+      "All the participants have to submit the registration fee through UPI or Netbanking, in order to attend/present paper in the conference. E-receipt can be downloaded from payment portal after successful payment process.",
+      "Once the payment has been done, the authors need to fill the registration form for their confirmation.",
+      "Registration fee includes registration kit, and high tea during the conference sessions."
+    ],
     "B_name":"IDBI Bank Ltd",
     "B_address":"Ground and First Floor, Plot No. 644, Main Road, Kashmirian Wala Gurudwara, Tripuri Town, Patiala, Punjab - 147001",
     "B_acc":"0267104000092579",
     "B_bic":"IBKLINBB",
     "B_ifsc":"IBKL0000267",
-            "buttons": {
+    "buttons": {
       "objectives": {
         "title": "Registration Form",
         "path": "https://docs.google.com/forms/d/e/1FAIpQLScOyRFI3AN4zuVCZ38mtp1BPeQUyBr822eWsOTi74oAZs9lyw/viewform"
@@ -343,7 +335,8 @@
         "title":"Latex Template",
         "path":"images/THEC 2025LaTeX.tex"
       }
-    }},
+    }
+  },
   
   "Fee": {
     "title": "Fee Details:",
@@ -360,34 +353,30 @@
       {"event": "Early Bird Registration (Foreign Authors) 15 July 2025", "date": "250 USD" }
       
     ]
-
-
   },
-"announcements": [
-  {
-    "content": [
-      { "type": "text", "value": "Selected papers of the conference will be published as proceedings with Springer in their prestigious 'Springer Transactions on Digital Learning' series " },
-      { "type": "link", "value": "(https://link.springer.com/series/60243)", "href": "https://link.springer.com/series/60243" },
-      { "type": "link", "value": "Details Click Here", "href": "#conference-tracks-section" }
-    ]
-  },
-  {
-    "content": [
-      { "type": "text", "value": "Full paper submission template download ;" },
-      { "type": "link", "value": "<<Latex Template>>", "href": "images/THEC2025LaTeX.tex" },
-      { "type": "link", "value": "<<MS Word Template>>", "href": "images/Format_Full Paper_THEC2025.pdf" }
-    ]
-  },
-  {
-    "content": [
-      { "type": "text", "value": "Poster presentation template (Size Length/Height 3 feet, width 2.5 feet)" },
-      { "type": "link", "value": "<<Click Here>>", "href": "images/Poster Presentation Template.pptx" }
-    ]
-  }
-]
-
-
-    ,
+  
+  "announcements": [
+    {
+      "content": [
+        { "type": "text", "value": "Selected papers of the conference will be published as proceedings with Springer in their prestigious 'Springer Transactions on Digital Learning' series " },
+        { "type": "link", "value": "(https://link.springer.com/series/60243)", "href": "https://link.springer.com/series/60243" },
+        { "type": "link", "value": "Details Click Here", "href": "#conference-tracks-section" }
+      ]
+    },
+    {
+      "content": [
+        { "type": "text", "value": "Full paper submission template download ;" },
+        { "type": "link", "value": "<<Latex Template>>", "href": "images/THEC2025LaTeX.tex" },
+        { "type": "link", "value": "<<MS Word Template>>", "href": "images/Format_Full Paper_THEC2025.pdf" }
+      ]
+    },
+    {
+      "content": [
+        { "type": "text", "value": "Poster presentation template (Size Length/Height 3 feet, width 2.5 feet)" },
+        { "type": "link", "value": "<<Click Here>>", "href": "images/Poster Presentation Template.pptx" }
+      ]
+    }
+  ],
   "glimpse":{
     "title":"GLIMPSES OF FIRST CONFERENCE OBE'23",
     "images":["/DSC_9152","/DSC_9197","/DSC_9200","/DSC_9204","/DSC_9222"]
@@ -397,44 +386,41 @@
     
     "title": "List of Journals",
     "description_bullets":[
-"Journal of Engineering & Technology Education (ISSN 2229 – 631X), bi-annual interdisciplinary Journal",
-"ASEAN Journal of Engineering Education. Asian SCI indexed"
+      "Journal of Engineering & Technology Education (ISSN 2229 – 631X), bi-annual interdisciplinary Journal",
+      "ASEAN Journal of Engineering Education. Asian SCI indexed"
     ]
-
   },
 
-"springerInfo": [
-  {
-    "type": "text",
-    "value": "It is planned to publish the peer reviewed and selected papers of conference as proceedings with Springer in their prestigious “Springer Transactions on Digital Learning” series "
-  },
-   
+  "springerInfo": [
+    {
+      "type": "text",
+      "value": "It is planned to publish the peer reviewed and selected papers of conference as proceedings with Springer in their prestigious “Springer Transactions on Digital Learning” series "
+    },
+    
 
-  {
-    "type": "link",
-    "value": "(https://link.springer.com/series/60243)",
-    "href": "https://link.springer.com/series/60243"
-  },
-  {
-    "type": "text",
-    "value": ". For detailed instructions for author and editors of conference proceedings, kindly visit the following link: "
-  },
-  {
-    "type": "link",
-    "value": "Springer Author Guidelines",
-    "href": "https://www.springer.com/us/authors-editors/conference-proceedings"
-  },
-  {
-    "type": "text",
-    "value": ". Select papers from the conference will be published by Springer as a proceedings book volume. Springer will conduct quality checks on the accepted papers and only papers that pass these checks will be published. Springer Nature does not charge any money for publication of Non-Open Access content. Abstracts/extended abstracts and short papers (less than 4 pages) are not considered for publication."
+    {
+      "type": "link",
+      "value": "(https://link.springer.com/series/60243)",
+      "href": "https://link.springer.com/series/60243"
+    },
+    {
+      "type": "text",
+      "value": ". For detailed instructions for author and editors of conference proceedings, kindly visit the following link: "
+    },
+    {
+      "type": "link",
+      "value": "Springer Author Guidelines",
+      "href": "https://www.springer.com/us/authors-editors/conference-proceedings"
+    },
+    {
+      "type": "text",
+      "value": ". Select papers from the conference will be published by Springer as a proceedings book volume. Springer will conduct quality checks on the accepted papers and only papers that pass these checks will be published. Springer Nature does not charge any money for publication of Non-Open Access content. Abstracts/extended abstracts and short papers (less than 4 pages) are not considered for publication."
+    }
+  ],
+
+  "Schedule":{
+      "title":"Schedule",
+      "description":"Coming Soon..."
   }
-],
-
-"Schedule":{
-    "title":"Schedule",
-    "description":"Coming Soon..."
-
-}
-
 }
 
