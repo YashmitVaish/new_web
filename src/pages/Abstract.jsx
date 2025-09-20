@@ -38,7 +38,7 @@ function Abstract() {
               fontSize: "1.2rem",
               lineHeight: 1.6,
             }}
-          >
+          ><br></br><br></br>
             Welcome to the abstract submission for the International Conference
             on <b>TRANSFORMING HIGHER EDUCATION FOR FUTURE: EDUCATION 4.0</b>.
           </Typography>
