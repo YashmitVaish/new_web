@@ -375,6 +375,12 @@
         { "type": "text", "value": "Poster presentation template (Size Length/Height 3 feet, width 2.5 feet)" },
         { "type": "link", "value": "<<Click Here>>", "href": "images/Poster Presentation Template.pptx" }
       ]
+    },
+    {
+      "content": [
+        { "type": "text", "value": "Presentation template (10-12) slides" },
+        { "type": "link", "value": "<<Click Here to Download>>", "href": "images/THEC2025 ppt template.pptx" }
+      ]
     }
   ],
   "glimpse":{
@@ -396,8 +402,6 @@
       "type": "text",
       "value": "It is planned to publish the peer reviewed and selected papers of conference as proceedings with Springer in their prestigious “Springer Transactions on Digital Learning” series "
     },
-    
-
     {
       "type": "link",
       "value": "(https://link.springer.com/series/60243)",
