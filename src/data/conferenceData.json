@@ -421,10 +421,31 @@
       "value": ". Select papers from the conference will be published by Springer as a proceedings book volume. Springer will conduct quality checks on the accepted papers and only papers that pass these checks will be published. Springer Nature does not charge any money for publication of Non-Open Access content. Abstracts/extended abstracts and short papers (less than 4 pages) are not considered for publication."
     }
   ],
-
-  "Schedule":{
-      "title":"Schedule",
-      "description":"Coming Soon..."
-  }
+"Schedule": {
+  "title": "Schedule",
+  "description": "Coming Soon...",
+  "items": [
+    {
+      "type": "text",
+      "content": "Poster presentation template (Size Length/Height 3 feet, width 2.5 feet)"
+    },
+    {
+      "type": "button",
+      "title": "Poster Presentation Template",
+      "path": "/images/Poster Presentation Template.pptx"
+    },
+    {
+      "type": "text",
+      "content": "Presentation template (10-12 slides)"
+    },
+    {
+      "type": "button",
+      "title": "Presentation template",
+      "path": "/images/THEC2025 ppt template.pptx"
+    }
+  ]
 }
+
+}
+
 
