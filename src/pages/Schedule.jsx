@@ -36,17 +36,6 @@ export default function Schedule() {
 
       {/* Description */}
       <Container sx={{ py: { xs: 1, md: 0.1 } }}>
-        <Typography
-          variant="body1"
-          sx={{
-            textAlign: "justify",
-            fontSize: "1.2rem",
-            lineHeight: 1.6,
-            mb: 4,
-          }}
-        >
-          {schedule.description}
-        </Typography>
 
         {/* Items (Text & Button sequentially) */}
         <Stack spacing={3} alignItems="center">
@@ -85,6 +74,18 @@ export default function Schedule() {
             return null;
           })}
         </Stack>
+
+        <Typography
+          variant="body1"
+          sx={{
+            textAlign: "justify",
+            fontSize: "1.2rem",
+            lineHeight: 1.6,
+            mb: 4,
+          }}
+        >
+          {schedule.description}
+        </Typography>
       </Container>
 
       {/* Footer */}
