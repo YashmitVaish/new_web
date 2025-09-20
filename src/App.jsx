@@ -1,21 +1,24 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/home";
-import Register from "./pages/register";
-import Abstract from "./pages/Abstract";
-import Schedule from "./pages/Schedule";
 
-function App(){
-  return(
+const Home = lazy(() => import("./pages/home"));
+const Register = lazy(() => import("./pages/register"));
+const Abstract = lazy(() => import("./pages/Abstract"));
+const Schedule = lazy(() => import("./pages/Schedule"));
+
+function App() {
+  return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/register" element={<Register />}/>
-        <Route path="/abstract" element = { <Abstract /> }/>
-        <Route path="/schedule" element = { <Schedule /> }/>
-      </Routes>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/abstract" element={<Abstract />} />
+          <Route path="/schedule" element={<Schedule />} />
+        </Routes>
+      </Suspense>
     </Router>
-  )
+  );
 }
 
 export default App;
