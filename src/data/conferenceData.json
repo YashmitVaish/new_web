@@ -381,6 +381,11 @@
         { "type": "text", "value": "Presentation template (10-12) slides" },
         { "type": "link", "value": "<<Click Here to Download>>", "href": "images/THEC2025 ppt template.pptx" }
       ]
+    },
+    {
+      "content": [
+        { "type": "text", "value": "Authors presenting posters should bring their printed posters as per the prescribed guidelines." }
+      ]
     }
   ],
   "glimpse":{
