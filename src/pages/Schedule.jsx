@@ -74,20 +74,9 @@ export default function Schedule() {
             return null;
           })}
         </Stack>
-
-        <Typography
-          variant="body1"
-          sx={{
-            textAlign: "justify",
-            fontSize: "1.2rem",
-            lineHeight: 1.6,
-            mb: 4,
-          }}
-        >
-          {schedule.description}
-        </Typography>
+            
       </Container>
-
+      <br></br>
       {/* Footer */}
       <ContactUs data={conferencedata.footer} />
     </>

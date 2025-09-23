@@ -447,6 +447,33 @@
       "type": "button",
       "title": "Presentation template",
       "path": "/images/THEC2025 ppt template.pptx"
+    },
+    {
+      "type": "text",
+      "content": "Presentation Schedule for Experiential Learning_26.09.25 evening"
+    },
+    {
+      "type": "button",
+      "title": "Click Here",
+      "path": "images/Experiential Learning_26.09.25 evening.pdf"
+    },
+    {
+      "type": "text",
+      "content": "Presentation Schedule for Active Learning_26.09.25 evening"
+    },
+    {
+      "type": "button",
+      "title": "Click Here",
+      "path": "images/Active Learning_26.09.25 evening.pdf"
+    },
+    {
+      "type": "text",
+      "content": "Presentation Schedule for Project based Learning_26.09.25 evening"
+    },
+    {
+      "type": "button",
+      "title": "Click Here",
+      "path": "public/images/Project based Learning_26.09.25 evening.pdf"
     }
   ]
 }
