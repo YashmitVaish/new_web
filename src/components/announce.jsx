@@ -62,7 +62,7 @@ export default function AnnouncementsCard({ data }) {
                 display: "flex",
                 alignItems: "flex-start",
                 p: 1,
-                mb: "3em", // ensures 5 lines of spacing after each item
+                mb: "2em",
               }}
             >
               {/* Bullet */}
