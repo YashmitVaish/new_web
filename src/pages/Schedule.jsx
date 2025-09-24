@@ -19,7 +19,8 @@ export default function Schedule() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          py: { xs: 6, md: 10 },
+          paddingBlockEnd: { xs: 6 , md: 5 },
+          paddingBlockStart:{ xs: 6 , md: 10 }
         }}
       >
         <Typography
@@ -37,36 +38,76 @@ export default function Schedule() {
       {/* Description */}
       <Container sx={{ py: { xs: 1, md: 0.1 } }}>
         {/* Items (Text & Hyperlinks sequentially) */}
-        <Stack spacing={3} alignItems="center">
+        <Stack spacing={2} width="100%">
           {schedule.items.map((item, index) => {
             if (item.type === "text") {
+              const next = schedule.items[index + 1];
+
+              if (next && next.type === "button") {
+                return (
+                  <Stack
+                    key={index}
+                    direction="row"
+                    justifyContent="space-between"
+                    alignItems="center"
+                    width="100%"
+                  >
+                    <Typography variant="subtitle1">{item.content}</Typography>
+                    <Link
+                      href={next.path}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      underline="hover"
+                      color="primary"
+                      sx={{ fontWeight: "bold", fontSize: "1rem" }}
+                    >
+                      {next.title}
+                    </Link>
+                  </Stack>
+                );
+              }
+
               return (
                 <Typography
                   key={index}
                   variant="subtitle1"
-                  sx={{ textAlign: "center" }}
+                  sx={{ textAlign: "left" }}
                 >
                   {item.content}
                 </Typography>
               );
-            } else if (item.type === "button") {
+            }
+
+            if (item.type === "button" && schedule.items[index - 1]?.type === "text") {
+              return null;
+            }
+
+            if (item.type === "button") {
               return (
-                <Link
+                <Stack
                   key={index}
-                  href={item.path}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  underline="hover"
-                  color="primary"
-                  sx={{ fontWeight: "bold", fontSize: "1rem" }}
+                  direction="row"
+                  justifyContent="flex-end"
+                  width="100%"
                 >
-                  {item.title}
-                </Link>
+                  <Link
+                    href={item.path}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    underline="hover"
+                    color="primary"
+                    sx={{ fontWeight: "bold", fontSize: "1rem" }}
+                  >
+                    {item.title}
+                  </Link>
+                </Stack>
               );
             }
+
             return null;
           })}
         </Stack>
+
       </Container>
 
       <br />

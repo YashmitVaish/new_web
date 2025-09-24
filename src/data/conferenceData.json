@@ -473,7 +473,61 @@
     {
       "type": "button",
       "title": "Click Here",
-      "path": "public/images/Project based Learning_26.09.25 evening.pdf"
+      "path": "images/Project based Learning_26.09.25 evening.pdf"
+    },
+    {
+      "type": "text",
+      "content": "Presentation Schedule for Active Learning_27.09.25 morning"
+    },
+    {
+      "type": "button",
+      "title": "Click Here",
+      "path": "images/Active Learning 27.09.25 morning.pdf"
+    },
+    {
+      "type": "text",
+      "content": "Presentation Schedule for AI in Education_27.09.25 forenoon"
+    },
+    {
+      "type": "button",
+      "title": "Click Here",
+      "path": "images/AI in EDucation _27.09.25 forenoon.pdf"
+    },
+    {
+      "type": "text",
+      "content": "Presentation Schedule for Experiential Learning_27.09.25 morning"
+    },
+    {
+      "type": "button",
+      "title": "Click Here",
+      "path": "images/Experiential Learning_27.09.25 Morning.pdf"
+    },
+    {
+      "type": "text",
+      "content": "Presentation Schedule for Faculty Development and Support _27.09.25 forenoon"
+    },
+    {
+      "type": "button",
+      "title": "Click Here",
+      "path": "images/Faculty Development and Support  _27.09.25 forenoon.pdf"
+    },
+    {
+      "type": "text",
+      "content": "Presentation Schedule for Global Imlications of Education and Academia Industry Connect _27.09.25 forenoon"
+    },
+    {
+      "type": "button",
+      "title": "Click Here",
+      "path": "images/Global Imlications of Education and Academia Industry Connect _27.09.25 forenoon.pdf"
+    },
+    {
+      "type": "text",
+      "content": "Presentation Schedule for Student Engagament , Employability and Carrer Readiness_27.09.25 Morning"
+    },
+    {
+      "type": "button",
+      "title": "Click Here",
+      "path": "images/Student Engagament , Employability and Carrer Readiness_27.09.25 Morning"
     }
   ]
 }
