@@ -223,6 +223,7 @@
       "Abhinav Saini, Electronics and Communication Engineering Department",
       "Aanya Agarwal, Department of Computer Science and Engineering",
       "Vignesh Jain, Department of Computer Science and Engineering",
+      "Akshit Singla, Department of Computer Science & Engineering",
       "Aman Aasees Kaur, Department of Computer Science and Engineering"
           ]
         }
@@ -455,7 +456,7 @@
     {
       "type": "button",
       "title": "Click Here",
-      "path": "images/Experiential Learning_26.09.25 evening.pdf"
+      "path": "about:blank"
     },
     {
       "type": "text",
@@ -464,7 +465,7 @@
     {
       "type": "button",
       "title": "Click Here",
-      "path": "images/Active Learning_26.09.25 evening.pdf"
+      "path": "about:blank"
     },
     {
       "type": "text",
@@ -473,7 +474,7 @@
     {
       "type": "button",
       "title": "Click Here",
-      "path": "images/Project based Learning_26.09.25 evening.pdf"
+      "path": "about:blank"
     },
     {
       "type": "text",
@@ -482,7 +483,7 @@
     {
       "type": "button",
       "title": "Click Here",
-      "path": "images/Active Learning 27.09.25 morning.pdf"
+      "path": "about:blank"
     },
     {
       "type": "text",
@@ -491,7 +492,7 @@
     {
       "type": "button",
       "title": "Click Here",
-      "path": "images/AI in EDucation _27.09.25 forenoon.pdf"
+      "path": "about:blank"
     },
     {
       "type": "text",
@@ -500,7 +501,7 @@
     {
       "type": "button",
       "title": "Click Here",
-      "path": "images/Experiential Learning_27.09.25 Morning.pdf"
+      "path": "about:blank"
     },
     {
       "type": "text",
@@ -509,7 +510,7 @@
     {
       "type": "button",
       "title": "Click Here",
-      "path": "images/Faculty Development and Support  _27.09.25 forenoon.pdf"
+      "path": "about:blank"
     },
     {
       "type": "text",
@@ -518,7 +519,7 @@
     {
       "type": "button",
       "title": "Click Here",
-      "path": "images/Global Imlications of Education and Academia Industry Connect _27.09.25 forenoon.pdf"
+      "path": "about:blank"
     },
     {
       "type": "text",
@@ -527,7 +528,7 @@
     {
       "type": "button",
       "title": "Click Here",
-      "path": "images/Student Engagament , Employability and Carrer Readiness_27.09.25 Morning"
+      "path": "about:blank"
     }
   ]
 }
