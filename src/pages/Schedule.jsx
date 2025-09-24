@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/navbar";
 import ContactUs from "../components/contactUs";
 
-import { Container, Box, Typography, Button, Stack } from "@mui/material";
+import { Container, Box, Typography, Stack, Link } from "@mui/material";
 import conferencedata from "../data/conferenceData.json";
 
 export default function Schedule() {
@@ -36,47 +36,41 @@ export default function Schedule() {
 
       {/* Description */}
       <Container sx={{ py: { xs: 1, md: 0.1 } }}>
-
-        {/* Items (Text & Button sequentially) */}
+        {/* Items (Text & Hyperlinks sequentially) */}
         <Stack spacing={3} alignItems="center">
           {schedule.items.map((item, index) => {
             if (item.type === "text") {
               return (
-                <Typography key={index} variant="subtitle1" sx={{ textAlign: "center" }}>
+                <Typography
+                  key={index}
+                  variant="subtitle1"
+                  sx={{ textAlign: "center" }}
+                >
                   {item.content}
                 </Typography>
               );
             } else if (item.type === "button") {
               return (
-                <Button
+                <Link
                   key={index}
-                  component="a"
                   href={item.path}
                   target="_blank"
                   rel="noopener noreferrer"
-                  variant="contained"
+                  underline="hover"
                   color="primary"
-                  sx={{
-                    borderRadius: "20px",
-                    px: 3,
-                    py: 1,
-                    textTransform: "none",
-                    fontWeight: "bold",
-                    fontSize: "1rem",
-                    boxShadow: 2,
-                    minWidth: "200px",
-                  }}
+                  sx={{ fontWeight: "bold", fontSize: "1rem" }}
                 >
                   {item.title}
-                </Button>
+                </Link>
               );
             }
             return null;
           })}
         </Stack>
-            
       </Container>
-      <br></br>
+
+      <br />
+
       {/* Footer */}
       <ContactUs data={conferencedata.footer} />
     </>
