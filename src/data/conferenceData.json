@@ -451,84 +451,48 @@
     },
     {
       "type": "text",
-      "content": "Presentation Schedule for Experiential Learning_26.09.25 evening"
+      "content": "Session Details 26.09.25_EVENING"
     },
     {
       "type": "button",
       "title": "Click Here",
-      "path": "about:blank"
+      "path": "images/Session Details 26.09.25_EVENING.pdf"
     },
     {
       "type": "text",
-      "content": "Presentation Schedule for Active Learning_26.09.25 evening"
+      "content": "Session Details 27.09.25_AFTERNOON.pdf"
     },
     {
       "type": "button",
       "title": "Click Here",
-      "path": "about:blank"
+      "path": "images/Session Details 27.09.25_AFTERNOON.pdf"
     },
     {
       "type": "text",
-      "content": "Presentation Schedule for Project based Learning_26.09.25 evening"
+      "content": "Session Details 27.09.25_FORENOON.pdf"
     },
     {
       "type": "button",
       "title": "Click Here",
-      "path": "about:blank"
+      "path": "images/Session Details 27.09.25_FORENOON.pdf"
     },
     {
       "type": "text",
-      "content": "Presentation Schedule for Active Learning_27.09.25 morning"
+      "content": "Session Details 27.09.25_MORNING.pdf"
     },
     {
       "type": "button",
       "title": "Click Here",
-      "path": "about:blank"
+      "path": "images/Session Details 27.09.25_MORNING.pdf"
     },
     {
       "type": "text",
-      "content": "Presentation Schedule for AI in Education_27.09.25 forenoon"
+      "content": "Online Session Link"
     },
     {
       "type": "button",
       "title": "Click Here",
-      "path": "about:blank"
-    },
-    {
-      "type": "text",
-      "content": "Presentation Schedule for Experiential Learning_27.09.25 morning"
-    },
-    {
-      "type": "button",
-      "title": "Click Here",
-      "path": "about:blank"
-    },
-    {
-      "type": "text",
-      "content": "Presentation Schedule for Faculty Development and Support _27.09.25 forenoon"
-    },
-    {
-      "type": "button",
-      "title": "Click Here",
-      "path": "about:blank"
-    },
-    {
-      "type": "text",
-      "content": "Presentation Schedule for Global Imlications of Education and Academia Industry Connect _27.09.25 forenoon"
-    },
-    {
-      "type": "button",
-      "title": "Click Here",
-      "path": "about:blank"
-    },
-    {
-      "type": "text",
-      "content": "Presentation Schedule for Student Engagament , Employability and Carrer Readiness_27.09.25 Morning"
-    },
-    {
-      "type": "button",
-      "title": "Click Here",
-      "path": "about:blank"
+      "path": "https://meet.google.com/qrn-ndoq-byw"
     }
   ]
 }
