@@ -451,6 +451,15 @@
     },
     {
       "type": "text",
+      "content": "Poster Session_26.09.25_Evening"
+    },
+    {
+      "type": "button",
+      "title": "Click Here",
+      "path": "images/Poster Session_26.09.25_Evening.pdf"
+    },
+    {
+      "type": "text",
       "content": "Session Details 26.09.25_EVENING"
     },
     {
