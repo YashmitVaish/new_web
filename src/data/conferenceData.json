@@ -387,6 +387,12 @@
       "content": [
         { "type": "text", "value": "Authors presenting posters should bring their printed posters as per the prescribed guidelines." }
       ]
+    },
+    {
+      "content": [
+        { "type": "text", "value": "Download THEC2025 Proceedings" },
+        { "type": "link", "value": "<<Click Here>>", "href": "images/THEC2025_Proceedings.pdf" }
+      ]
     }
   ],
   "glimpse":{
