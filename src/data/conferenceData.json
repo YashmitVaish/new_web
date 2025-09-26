@@ -359,6 +359,12 @@
   "announcements": [
     {
       "content": [
+        { "type": "text", "value": "Download THEC2025 Proceedings " },
+        { "type": "link", "value": "<<Click Here>>", "href": "images/THEC2025_Proceedings.pdf" }
+      ]
+    },
+    {
+      "content": [
         { "type": "text", "value": "Selected papers of the conference will be published as proceedings with Springer in their prestigious 'Springer Transactions on Digital Learning' series " },
         { "type": "link", "value": "(https://link.springer.com/series/60243)", "href": "https://link.springer.com/series/60243" },
         { "type": "link", "value": "Details Click Here", "href": "#conference-tracks-section" }
@@ -386,12 +392,6 @@
     {
       "content": [
         { "type": "text", "value": "Authors presenting posters should bring their printed posters as per the prescribed guidelines." }
-      ]
-    },
-    {
-      "content": [
-        { "type": "text", "value": "Download THEC2025 Proceedings" },
-        { "type": "link", "value": "<<Click Here>>", "href": "images/THEC2025_Proceedings.pdf" }
       ]
     }
   ],
