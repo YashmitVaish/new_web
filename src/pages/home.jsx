@@ -54,7 +54,6 @@ function Home() {
             px: 2,
             my: 4,
             gap: { xs: 2, sm: 0 },
-            alignItems: "stretch",
           }}
         >
           <Box sx={{ display: 'flex', gap: 2 }}>
