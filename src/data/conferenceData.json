@@ -393,6 +393,12 @@
       "content": [
         { "type": "text", "value": "Authors presenting posters should bring their printed posters as per the prescribed guidelines." }
       ]
+    },
+    {
+      "content":[
+        {"type":"text","value":"Conference Papers are Under scrutiny for possible publication in Springer Transactions on Digital Learning"},
+        {"type":"link","value":"series","href":"https://link.springer.com/series/60243"}
+      ]
     }
   ],
   "glimpse":{
