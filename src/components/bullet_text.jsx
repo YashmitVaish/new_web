@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Container, Box, Typography, Button, Stack } from "@mui/material";
+import { Container, Box, Typography} from "@mui/material";
 
 
 function BulletSection({data}){

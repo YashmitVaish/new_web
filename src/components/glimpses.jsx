@@ -18,13 +18,9 @@ const Slideshow = ({ data }) => {
 
   // Autoplay functionality
   useEffect(() => {
-    const intervalId = setInterval(() => {
-      handleNext();
-    }, 3000); // 3 seconds interval
-
-    // Clear interval on component unmount
-    return () => clearInterval(intervalId);
-  }, []);
+    const interval = setInterval(handleNext, 3000);
+    return () => clearInterval(interval);
+  }, [handleNext]);
 
   return (
     <Box sx={{ position: 'relative', textAlign: 'center', maxWidth: '100%', margin: 'auto' }}>
