@@ -2,8 +2,8 @@ import React from 'react';
 import { Box, Typography, Accordion, AccordionSummary, AccordionDetails, List, ListItem, Container } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { styled } from '@mui/material/styles';
-import BulletSection from './bullet_text'
-import conferencedata from '../data/conferenceData.json'
+// import BulletSection from './bullet_text'
+// import conferencedata from '../data/conferenceData.json'
 
 
 

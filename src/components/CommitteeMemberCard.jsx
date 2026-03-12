@@ -68,12 +68,12 @@ const InfoWrapper = styled(Box)({
   minWidth: 0,
 });
 
-const MembersContainer = styled(Box)({
-  display: 'flex',
-  flexWrap: 'wrap',
-  gap: '30px',
-  justifyContent: 'flex-start',
-});
+// const MembersContainer = styled(Box)({
+//   display: 'flex',
+//   flexWrap: 'wrap',
+//   gap: '30px',
+//   justifyContent: 'flex-start',
+// });
 
 
 const CommitteeMemberCard = ({ member, forceTwoPerRow }) => {
