@@ -318,7 +318,7 @@
     "buttons": {
       "objectives": {
         "title": "Registration Form",
-        "path": "https://docs.google.com/forms/d/e/1FAIpQLScOyRFI3AN4zuVCZ38mtp1BPeQUyBr822eWsOTi74oAZs9lyw/viewform"
+        "path": "/"
       },
       "outcomes": {
         "title": "Accomodation Details",
@@ -326,7 +326,7 @@
       },
       "callForPapers": {
         "title": "Abstract/Paper Submission",
-        "path": "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FTHEC2025"
+        "path": "/"
       },
       "template":{
         "title":"MS Word Template",
