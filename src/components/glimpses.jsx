@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { IconButton, Box, Typography, Paper } from '@mui/material';
 import { ArrowForward, ArrowBack } from '@mui/icons-material';
 
@@ -7,18 +7,21 @@ const Slideshow = ({ data }) => {
   const images = data.images.map((image) => `${process.env.PUBLIC_URL}${image}.webp`);
 
   // Move to the next slide
-  const handleNext = () => {
+  const handleNext = useCallback(() => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
+  }, [images.length]);
 
   // Move to the previous slide
-  const handlePrev = () => {
+  const handlePrev = useCallback(() => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
-  };
+  }, [images.length]);
 
   // Autoplay functionality
   useEffect(() => {
-    const interval = setInterval(handleNext, 3000);
+    const interval = setInterval(() => {
+      handleNext();
+    }, 3000);
+
     return () => clearInterval(interval);
   }, [handleNext]);
 
@@ -27,6 +30,7 @@ const Slideshow = ({ data }) => {
       <Typography variant="h4" sx={{ marginBottom: 2, fontWeight: 'bold', color: 'primary.main' }}>
         {data.title}
       </Typography>
+
       <Paper
         sx={{
           padding: 10,
@@ -54,7 +58,7 @@ const Slideshow = ({ data }) => {
 
         <img
           src={images[currentIndex]}
-          alt={`Slideshow Image ${currentIndex + 1}`}
+          alt={`Slideshow ${currentIndex + 1}`}
           style={{
             width: '75%',
             height: 'auto',
